@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://st7xxxoiw57w"]
+
+[ext_resource type="AnimationLibrary" uid="uid://e3uajwa1tbu2" path="res://cutscenes.tres" id="1_d1o1e"]
+
+[node name="Opening" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="test" type="TextEdit" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"cutscenes": ExtResource("1_d1o1e")
+}

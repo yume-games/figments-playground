@@ -1,0 +1,22 @@
+[gd_resource type="AnimationLibrary" load_steps=2 format=3 uid="uid://e3uajwa1tbu2"]
+
+[sub_resource type="Animation" id="Animation_2otpu"]
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("test")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"clear"
+}]
+}
+
+[resource]
+_data = {
+"test": SubResource("Animation_2otpu")
+}
